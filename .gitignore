@@ -1,0 +1,20 @@
+# Local Python environment and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large, locally acquired research assets
+data/raw/
+data/rir/
+data/real_replay/
+data/processed/
+checkpoints/
+
+# Generated manifests, metrics, scores, and figures
+manifests/
+results/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
